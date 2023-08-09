@@ -10,13 +10,44 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Home />
+            </>
+          }
+        />
         <Route path="/room/:roomId" element={<Room />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/*" element={<ErrorPage />} />
+        <Route
+          path="/about"
+          element={
+            <>
+              <Navbar />
+              <About />
+            </>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Navbar />
+              <Contact />
+            </>
+          }
+        />
+        <Route
+          path="/*"
+          element={
+            <>
+              <Navbar />
+              <ErrorPage />
+            </>
+          }
+        />
       </Routes>
     </div>
   );
