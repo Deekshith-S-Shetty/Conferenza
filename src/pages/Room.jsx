@@ -19,7 +19,6 @@ function Room() {
 
     zp.joinRoom({
       container: element,
-      console: 0,
       sharedLinks: [
         {
           name: "Personal link",
