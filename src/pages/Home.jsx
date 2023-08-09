@@ -4,6 +4,7 @@ import "./Home.css";
 
 function Home() {
   const [roomId, setRoomId] = useState("");
+  const [empty, setEmpty] = useState(false);
   const navigate = useNavigate();
 
   function handleChange(event) {
@@ -11,7 +12,11 @@ function Home() {
   }
 
   function handleCreateRoom() {
-    navigate(`/room/${roomId}`);
+    if (roomId === "") {
+      setEmpty(true);
+    } else {
+      navigate(`/room/${roomId}`);
+    }
   }
 
   return (
@@ -24,6 +29,11 @@ function Home() {
           onChange={handleChange}
           placeholder="Enter room code"
         />
+        {empty ? (
+          <span className="warning">Please enter a room code to enter</span>
+        ) : (
+          ""
+        )}
         <button className="create-room btn" onClick={handleCreateRoom}>
           {" "}
           Join{" "}

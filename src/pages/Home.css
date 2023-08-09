@@ -17,7 +17,7 @@
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -27,9 +27,9 @@
 }
 
 .btn {
-  color: blue;
+  color: rgb(0, 231, 231);
   border: none;
-  border: 3px solid blue;
+  border: 3px solid rgb(0, 231, 231);
   border-radius: 7px;
   cursor: pointer;
   font-weight: bold;
@@ -37,6 +37,11 @@
 }
 
 .btn:hover {
-  background-color: blue;
+  background-color: rgb(0, 231, 231);
   color: white;
+}
+
+.warning {
+  color: orange;
+  font-weight: 500;
 }
