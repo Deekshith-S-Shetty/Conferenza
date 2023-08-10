@@ -4,12 +4,14 @@ import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Background from "./components/Background";
 import Room from "./pages/Room";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <Background />
       <Routes>
         <Route
           path="/"
