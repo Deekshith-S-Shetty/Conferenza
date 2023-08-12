@@ -1,0 +1,64 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: whitesmoke;
+  width: fit-content;
+  margin: 50px auto;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+input[type="text"] {
+  width: 45%;
+}
+
+input[type="email"] {
+  width: 93%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin: 15px 5px 0;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: large;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: 3px solid rgb(221, 211, 211);
+}
+
+textarea {
+  width: 93%;
+}
+
+.contact-heading {
+  color: rgb(101, 94, 94);
+  text-decoration: underline;
+  text-decoration-color: grey;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin: 15px 5px 0;
+  padding: 8px 18px;
+  border-radius: 11px;
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: aquamarine;
+}
