@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Conferenza - Video Conferencing Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Conferenza is a web project that enables seamless video conferencing using the ZegoCloud API. It allows users to connect and communicate with each other through high-quality video and audio streams. The application is built using a modern tech stack including React, HTML, CSS, and JavaScript, providing a user-friendly and interactive conferencing experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Real-time Video Conferencing:** Connect with multiple participants in real-time through high-definition video and clear audio streams.
 
-### `npm start`
+- **User-friendly Interface:** A clean and intuitive user interface makes it easy for users to join and manage video conferences.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Screen Sharing:** Share your screen with other participants, enhancing collaboration and presentations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Chat:** Communicate with fellow participants using the in-built chat feature.
 
-### `npm test`
+- **Customizable Settings:** Adjust audio and video settings to optimize your conferencing experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with Conferenza, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository:** Clone this repository to your local machine using `git clone https://github.com/your-username/Conferenza.git`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install Dependencies:** Navigate to the project directory and install the required dependencies using `npm install`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Configure ZegoCloud API:** Sign up for a [ZegoCloud](https://www.zegocloud.com/) API account and obtain your API credentials (`server secret` and `AppID`). Update the `src/pages/Room.jsx` file with your server secret and AppID key.
 
-### `npm run eject`
+4. **Run the Application:** Start the development server using `npm start`. The application will be accessible at `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Join or Create Conference:** Open the application in your browser and either join an existing conference using the provided link or create a new conference.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We welcome contributions to improve Conferenza and make it even better! To contribute, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository on GitHub.
 
-## Learn More
+2. Create a new branch with a descriptive name for your feature or bug fix.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Make your changes and ensure the code follows the project's coding standards.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Commit your changes and push them to your forked repository.
 
-### Code Splitting
+5. Open a pull request (PR) to the `main` branch of the original repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please ensure your PR includes a detailed description of the changes, their purpose, and any potential implications.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for choosing Conferenza for your video conferencing needs. If you encounter any issues or have suggestions for improvements, please don't hesitate to [create an issue](https://github.com/your-username/Conferenza/issues) on our GitHub repository. We hope you enjoy using Conferenza for seamless and engaging video conferences!
