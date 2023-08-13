@@ -46,4 +46,4 @@ Please ensure your PR includes a detailed description of the changes, their purp
 
 ---
 
-Thank you for choosing Conferenza for your video conferencing needs. If you encounter any issues or have suggestions for improvements, please don't hesitate to [create an issue](https://github.com/your-username/Conferenza/issues) on our GitHub repository. We hope you enjoy using Conferenza for seamless and engaging video conferences!
+Thank you for choosing Conferenza for your video conferencing needs. If you encounter any issues or have suggestions for improvements, please don't hesitate to [create an issue](https://github.com/Deekshith-S-Shetty/Conferenza/issues) on our GitHub repository. We hope you enjoy using Conferenza for seamless and engaging video conferences!
